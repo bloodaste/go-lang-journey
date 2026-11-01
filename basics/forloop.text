@@ -1,0 +1,44 @@
+// package main
+
+// import "fmt"
+// func main() {
+// 	// for i := 1; i < 10; i++ {
+// 	// 	fmt.Println(i)
+// 	// }
+
+// 	// number := [] int{1,2,3,4,5,6,7,8,9,10}
+
+// 	// for notindex, notvalue := range number {
+// 	// 	fmt.Printf("Index: %d value: %d", notindex,notvalue)
+// 	// }
+
+// 	// for _ ,value := range number {
+// 	// 	if (value % 2 == 0 ){
+// 	// 		fmt.Printf("even numbers is : %d\n",value)
+// 	// 	}else{
+// 	// 		fmt.Printf("odd number: %d\n",value)
+// 	// 	}
+// 	// }// 6. continue: Loop from 1 to 10 and print only the even numbers.
+
+// 	// for i := 0; i < 10; i++ {
+// 	// 	if i%2 == 0 {
+// 	// 		continue
+// 	// 	}
+// 	// 	fmt.Println(i)
+// 	// 	if i == 5 {
+// 	// 		break
+// 	// 	}
+// 	// }
+
+// 	rows := 5
+
+// 	for i := 1; i<=rows; i++{
+// 		for	j:= 1 ; j<=rows-i  ; j++ {
+// 			fmt.Print(" ")
+// 		}
+// 		for k:= 1; k <= i; k++{
+// 			fmt.Print("*")
+// 		} 
+// 		fmt.Println()
+// 	}
+// }

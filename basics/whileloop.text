@@ -1,0 +1,58 @@
+// package main
+
+// import (
+// 	"fmt"
+// 	"math/rand"
+// )
+
+// func main() {
+// 	i := 1
+
+// 	for i <= 5 {
+// 		fmt.Println(i)
+// 		i++
+// 	}
+// 	sum := 0
+// 	for {
+// 		sum += 10
+// 		fmt.Println(sum)
+// 		if (sum >= 50){
+// 			break
+// 		}
+// 	}
+	
+// 	months := 0
+// 	savings := 1000
+
+// 	for {
+// 		savings += 150 
+// 		months ++
+// 		if (savings >= 5000){
+// 			break
+// 		}
+// 	}
+// 	fmt.Println("Months to save 5000 is more or less ", months)
+
+// 	summs := 1
+// 	for summs <= 5000 {
+// 		summs  += summs
+// 	}
+// 	fmt.Println(summs)
+
+// 	rannum := rand.Intn(10)
+// 	var answertorandom int
+// 	for answertorandom != rannum {
+// 		fmt.Println("enter the guess")
+// 	 	fmt.Scanln(&answertorandom)
+// 		if (answertorandom > rannum){
+// 			fmt.Println("lower")	
+// 		}else if(answertorandom < rannum) {
+// 			fmt.Println("higher")
+		
+// 		}else {
+// 			fmt.Println("you guess it")
+// 			break
+// 		}
+// 	}
+// 	fmt.Println("answer is ",rannum)
+// }

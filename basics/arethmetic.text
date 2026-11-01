@@ -1,0 +1,22 @@
+// package main
+
+// import "fmt"
+
+// func main() {
+// 	var a, b, c float64 = 1.1, 2, 4
+// 	var result float64
+
+// 	result = a + b + c
+// 	fmt.Println(result)
+	
+// 	result = a - b - c
+// 	fmt.Println(result)
+
+// 	result = a * b * c
+// 	fmt.Println(result)
+
+// 	result = a * b / c
+// 	fmt.Println(result)
+
+	
+// }
